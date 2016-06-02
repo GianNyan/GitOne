@@ -504,7 +504,7 @@ namespace MonsterBot
         void Source(Id id)
         {
             Dialogue dialogue = Sessions[id];
-            string response = @"Github link: https://github.com/FloodCode/MonsterBot";
+            string response = @"Github link: https://github.com/test1/MonsterBot";
             botClient.SendReply(id.chat_id, MessageId(dialogue), response);
         }
 
